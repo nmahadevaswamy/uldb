@@ -1,0 +1,8 @@
+.\python.bat -m venv venv
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Assuming your virtual environment is named 'venv'
+.\venv\Scripts\Activate
+
+pip show djangorestframework
