@@ -6,3 +6,25 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\venv\Scripts\Activate
 
 pip show djangorestframework
+
+
+creating the angular projects
+1.install node
+
+2. npm install
+
+
+3.npm install -g @angular/cli@12.2.6
+
+if you get the Node version issues : set NODE_OPTIONS=--openssl-legacy-provider
+
+4.ng serve
+
+5.creating the service file
+
+  ng g s 'service-file-name' 
+  ng g s 'service-file-name' --skip-tests
+
+6.To creating the component file
+  
+  ng g c 'component-file-name' --skip-tests
